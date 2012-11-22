@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+@*<h2>@ViewBag.Message</h2>
+<h2>@TempData["Message"]</h2>*@
+
+<p>
+   @* To learn more about ASP.NET MVC visit <a href="http://asp.net/mvc" title="ASP.NET MVC Website">http://asp.net/mvc</a>.*@
+</p>
+
+@Html.ActionLink("Contact Us", "ContactUs", "Home", null, new{ @class = "openDialog", data_dialog_id = "emailDialog", data_dialog_title = "Contact Us"})
